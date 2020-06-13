@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Web</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+  <body>
+      
+      <div class="container" style="max-width: 400px;">
+        <h1>Sistema de Ventas</h1>
+             <hr>
+      </div>
+      
+      <!-- Sidebar -->
+      <nav class="border border-dark" style="margin: 5%; width: 90%; height: 800px;">
+      <section class="container-fluid">
+        <div class="row">
+          <div class="alert alert-dark" style="width: 240px; height: 600px;">
+          <div class="col align-self-center"><h3> SISFAC</h3>
+          </div><br><br>
+          <div class="w-100"></div>
+          <form class="form-inline position-relative d-inline-block my-2">
+            <a class="dropdown-item" href="#"><i class="fas fa-tv"></i>  Inicio</a><br>
+          <form class="form-inline position-relative d-inline-block my-2">
+            <a class="dropdown-item" href="#"><i class="fas fa-receipt"></i>  Mantenimiento</a><br>
+          <a class="dropdown-item" href="#"><svg class="bi bi-handbag" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 1a2 2 0 0 0-2 2v4.5a.5.5 0 0 1-1 0V3a3 3 0 0 1 6 0v4.5a.5.5 0 0 1-1 0V3a2 2 0 0 0-2-2z"/>
+                <path fill-rule="evenodd" d="M3.405 6a.5.5 0 0 0-.498.45l-.912 6.9A1.5 1.5 0 0 0 3.488 15h9.024a1.5 1.5 0 0 0 1.493-1.65l-.913-6.9a.5.5 0 0 0-.497-.45h-9.19zm-1.493.35A1.5 1.5 0 0 1 3.405 5h9.19a1.5 1.5 0 0 1 1.493 1.35L15 13.252A2.5 2.5 0 0 1 12.512 16H3.488A2.5 2.5 0 0 1 1 13.251l.912-6.9z"/>
+                     </svg>
+                           Ventas</a><br>
+          <form class="form-inline position-relative d-inline-block my-2">
+            <a class="dropdown-item" href="#"><i class="fas fa-pen"></i>  Compras</a><br>
+          <a class="dropdown-item" href="#"><svg class="bi bi-bar-chart-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <rect width="4" height="5" x="1" y="10" rx="1"/>
+            <rect width="4" height="9" x="6" y="6" rx="1"/>
+            <rect width="4" height="14" x="11" y="1" rx="1"/>
+                     </svg>
+                           Reportes</a><br>
+          <form class="form-inline position-relative d-inline-block my-2">
+            <a class="dropdown-item" href="#"><i class="fas fa-database"></i> Backup</a><br>
+          <form class="form-inline position-relative d-inline-block my-2">
+            <a class="dropdown-item" href="#"><i class="fas fa-tools"></i> Configuracion</a><br>
+          <a class="dropdown-item" href="#"><svg class="bi bi-box-arrow-in-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8.146 11.354a.5.5 0 0 1 0-.708L10.793 8 8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0z"/>
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 1 8z"/>
+            <path fill-rule="evenodd" d="M13.5 14.5A1.5 1.5 0 0 0 15 13V3a1.5 1.5 0 0 0-1.5-1.5h-8A1.5 1.5 0 0 0 4 3v1.5a.5.5 0 0 0 1 0V3a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5h-8A.5.5 0 0 1 5 13v-1.5a.5.5 0 0 0-1 0V13a1.5 1.5 0 0 0 1.5 1.5h8z"/>
+                 </svg>
+                        Cerrar Seción</a><br>
+          </div>
+          
+          <div class="row">
+              <div class="col" style="position: initial;">
+              <a class="dropdown-item" href="#"><svg class="bi bi-person-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                   </svg>
+                        Admin</a><hr>
+            
+          <div class="row">
+             <div class="col" style="position: absolute; margin-left: 56%; width: 10%; height: 10px;">
+                  <a class="dropdown-item" href="#"><svg class="bi bi-box-arrow-in-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8.146 11.354a.5.5 0 0 1 0-.708L10.793 8 8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0z"/>
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 1 8z"/>
+                    <path fill-rule="evenodd" d="M13.5 14.5A1.5 1.5 0 0 0 15 13V3a1.5 1.5 0 0 0-1.5-1.5h-8A1.5 1.5 0 0 0 4 3v1.5a.5.5 0 0 0 1 0V3a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5h-8A.5.5 0 0 1 5 13v-1.5a.5.5 0 0 0-1 0V13a1.5 1.5 0 0 0 1.5 1.5h8z"/>
+                         </svg>
+                               Cerrar sesión</a>
+             </div>
+           </div>
+          
+          <div id="content" class="bg-grey w-100">
+             <div class="containers">
+                <div class="container">
+                    <h2>Nueva Compra</h2><hr>
+                      <div class="row">
+                           <div class="col-sm-4">
+                               Fecha:
+                           <div class="form-row">
+                              <div class="form-group col-md-10">
+                                  <input type="date" class="form-control" id="inputEmail4" placeholder="">
+                              </div>
+                           </div>
+                           </div>
+                           <div class="col-sm-4">
+                               Proveedor(es):
+                           <div class="form-row">
+                              <div class="form-group col-md-10">
+                                <input type="text" class="form-control" id="inputEmail4" placeholder="">
+                              </div>
+                           </div>
+                           </div>
+                           <div class="col-sm-4">
+                              Código de Barra:
+                           <div class="form-row">
+                            <div class="form-group col-md-10">
+                               <input type="text" class="form-control" id="inputEmail4" placeholder="">
+                            </div>
+                           </div>
+                           </div>
+                      </div>
+                </div>
+             </div>
+          </div>
+          
+             
+          <div class="container">
+             <div class="row">
+                <div class="col-sm-4">
+                      Descripcion: 
+                    <div class="form-row">
+                       <div class="form-group col-md-10">
+                           <input type="text" class="form-control" id="inputEmail4" placeholder="" disabled="false">
+                       </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                     Presentación:
+                  <div class="form-row">
+                     <div class="form-group col-md-6">
+                          <input type="text" class="form-control" id="inputEmail4" placeholder="" disabled="false">
+                     </div>
+                  </div> 
+                </div>
+                <div class="col-sm">
+                     Precio:
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                         <input type="text" class="form-control" id="inputEmail4" placeholder="" disabled="false">
+                    </div>
+                   </div>  
+                </div>
+             </div>
+          </div>
+          
+          
+          <section class="d-flex flex-row-reverse bd-highlight" style="margin-top: -180px; position: absolute; margin-left: 50%;">
+          <div class="card-header" style="width: 18rem;">
+              <h5 class="card-header bg-success">Tipo de Documento</h5>
+              <div class="card-body">
+                 <div class="form-group">
+                     <select class="form-control" id="exampleFormControlSelect1">
+                       <option>FACTURA</option>
+                       <option>BOLETA</option>
+                     </select>
+                 </div>
+              </div>
+              <div class="row">
+                 <div class="col-sm">
+                    <div class="form-row">
+                        <div class="form-group col-md-10">
+                           <input type="email" class="form-control" id="inputEmail4" placeholder="001">
+                        </div>
+                    </div>
+                 </div>
+              <div class="col-sm">
+                <div class="form-row">
+                   <div class="form-group col-md-10">
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="0000001">
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>
+
+          <br><br>
+
+          <section class="d-flex justify-content-center">
+            <button type="button" class="btn btn-info" style="width: 20%; height: 20%;"><svg class="bi bi-arrow-repeat" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M2.854 7.146a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L2.5 8.207l1.646 1.647a.5.5 0 0 0 .708-.708l-2-2zm13-1a.5.5 0 0 0-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 0 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0 0-.708z"/>
+              <path fill-rule="evenodd" d="M8 3a4.995 4.995 0 0 0-4.192 2.273.5.5 0 0 1-.837-.546A6 6 0 0 1 14 8a.5.5 0 0 1-1.001 0 5 5 0 0 0-5-5zM2.5 7.5A.5.5 0 0 1 3 8a5 5 0 0 0 9.192 2.727.5.5 0 1 1 .837.546A6 6 0 0 1 2 8a.5.5 0 0 1 .501-.5z"/>
+            </svg >
+                   Nuevo</button>
+            <button type="button" class="btn btn-success" style="width: 20%; height: 20%;" ><svg class="bi bi-cart-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+            </svg>
+                   Agregar</button>
+            <button type="button" class="btn btn-dark" style="width: 20%; height: 20%;"><svg class="bi bi-check-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+              <path fill-rule="evenodd" d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"/>
+            </svg>
+                   Registrar</button>
+        </section>
+         
+        
+
+        <section class="tables" style="position: absolute;">
+          <table class="table table-bordered" style="margin: 10%;">
+            <thead class="table-success">
+              <tr>
+                <th scope="col">Item</th>
+                <th scope="col">Descripcion</th>
+                <th scope="col-9">Presentacion</th>
+                <th scope="col-12">Cantidad</th>
+                <th scope="col-4">Precio</th>
+                <th scope="col">Importe</th>
+                <th scope="col">Eliminar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Gaseosa Inka Kola</td>
+                <td>LT</td>
+                <td>40</td>
+                <td>1.20</td>
+                <td>48.00</td>
+                <td class="d-flex justify-content-center"> <svg class="bi bi-dash-square-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm2 7.5a.5.5 0 0 0 0 1h8a.5.5 0 0 0 0-1H4z"/>
+                </svg></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Agua mineral San Mateo</td>
+                <td>LT</td>
+                <td>50</td>
+                <td>1.20</td>
+                <td>60.00</td>
+                <td class="d-flex justify-content-center"><svg class="bi bi-dash-square-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm2 7.5a.5.5 0 0 0 0 1h8a.5.5 0 0 0 0-1H4z"/>
+                </svg></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+          
+        <section class="ml-auto p-2 bd-highlight"  style="margin:17%;  margin-left: 50%;">
+          <table class="table table-bordered table" style="margin-top: initial; margin-left: 10px; margin: 20%;">
+              <thead>
+                <tr>
+                  <th scope="col">SUBTOTAL    :  </th>
+                  <th scope="col">1080</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">IGV</th>
+                  <td>19.44</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="table-success"> TOTAL</th>
+                  <td  class="table-success">127.44</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+
+
+        </div>
+        </div>
+        
+      </section> 
+    </nav>
+
+    <!-- Fin Sidebar -->
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
